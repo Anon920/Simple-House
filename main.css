@@ -363,6 +363,7 @@ figcaption{
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
+    
 }
 
 @media (min-width: 992px) {
@@ -378,7 +379,11 @@ figcaption{
         flex: 0 0 25%;
         max-width: 25%;
     }
-
+    .footer_text{
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 991px) {
@@ -397,10 +402,11 @@ figcaption{
     .welcome_subtitle{
         color: #626364;
         line-height: 1.5;
-        font-size: 1rem;
+        font-size: 14px;
     }
     
     .footer_text{
+        font-size: 13px;
         margin-left: auto;
         margin-right: auto;
     }
