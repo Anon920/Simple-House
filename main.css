@@ -7,10 +7,6 @@ html {
   -ms-overflow-style: scrollbar;
 }
 
-html, body {
-    height: 100%;
-}
-
 a,button{
     transition: all 0.3s ease;
 }
